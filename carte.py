@@ -24,23 +24,23 @@ class Carte:
 
 
 
-    def eagalite(self,carte):
-        if self.valeur == self.carte:
-            return true.self
+    def egalite(self,carte):
+        if self.valeur == carte.valeur:
+            return True
         else:
-            return false.self
+            return False
 
     def estSuperieureA(self,carte):
-        if self.valeur > self.carte:
-            return true.self
+        if self.valeur > carte.valeur:
+            return True
         else:
-            return false.self
+            return False
 
-    def estInterieureA(self,carte):
-        if self.valeur < self.carte:
-            return true.self
+    def estInferieureA(self,carte):
+        if self.valeur < carte.valeur:
+            return True
         else:
-            return false.self
+            return False
 
 
 
@@ -54,7 +54,7 @@ class Carte:
 ##    print('Valeur modifiee:',valetCoeur.getValeur())
 ##
 ##
-##    dameCarreau = Carte('Dame','COooEUR')
+##    dameCarreau = Carte('Dame','COEUR')
 ##
 ##testCarte()
 

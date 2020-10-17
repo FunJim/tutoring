@@ -1,4 +1,4 @@
-﻿from carte import*
+﻿from carte import *
 import random
 
 class JeuCartes():
